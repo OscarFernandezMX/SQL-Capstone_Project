@@ -1,2 +1,2 @@
-# Learn_SQL_Basics_for_Data_Science-Capstone_Project
+# Learn SQL Basics for Data Science - Capstone Project
  Capstone Project from UC Davis' Specialization Learn SQL Basics for Data Science.
