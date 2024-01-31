@@ -14,7 +14,7 @@ library(multcomp)
 
 
 ```{r}
-setwd("Downloads")
+setwd("/Users/oscarfs/GitHub/SQL-Capstone_Project")
 ```
 
 
@@ -42,7 +42,7 @@ df %>% group_by(df$Medal) %>%
   summarise(mean = mean(Age), SD = sd(Age))
 ```
 
-We will condunct an Analysis of Variance (ANOVA) since we have more than two means. We also need to adjust the $\alpha$ value with the Bonferroni correction. So the new p_value is calculated as $\alpha / K$, where $K = \dfrac{k(k-1)}{2}$. So, the new p-value is:
+We will conduct an Analysis of Variance (ANOVA) since we have more than two means. We also need to adjust the $\alpha$ value with the Bonferroni correction. So the new p_value is calculated as $\alpha / K$, where $K = \dfrac{k(k-1)}{2}$. So, the new p-value is:
 
 ```{r}
 # New p-value.
